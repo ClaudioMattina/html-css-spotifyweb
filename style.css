@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+body{
+    font-family: ;
+}
+
 .flex-box{
     display: flex;
 }
@@ -23,13 +27,6 @@
     width: 20%;
     height: 90vh;
     background-color: black;
-    float: left;
-}
-
-#section-top{
-    width: 80%;
-    height: 10vh;
-    background-color: blue;
     float: left;
 }
 
@@ -61,4 +58,35 @@ main{
 
 .main-content :first-child{
     justify-content: center;
+}
+
+
+
+/* sezione nera opaca in top */
+
+#section-top{
+    width: 80%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+}
+
+.upgrade{
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.upgrade a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-right: 5px;
+}
+
+.upgrade a:hover{
+    font-size: 1.1em;
 }
