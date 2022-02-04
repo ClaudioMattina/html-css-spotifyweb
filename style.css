@@ -39,3 +39,22 @@
     background-color: burlywood;
     float: left;
 }
+
+main{
+    background-color: cadetblue;
+    width: 80%;
+    height: 80vh;
+    overflow: auto;
+    float: left;
+}
+
+.main-header{
+    width: 100%;
+    height: 8vh;
+    background-color: chocolate;
+    justify-content: center;
+}
+
+.main-content{
+    justify-content: center;
+}
