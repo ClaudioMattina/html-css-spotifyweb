@@ -56,5 +56,9 @@ main{
 }
 
 .main-content{
+    /* justify-content: start; */
+}
+
+.main-content :first-child{
     justify-content: center;
 }
