@@ -23,16 +23,6 @@ body{
     height: 100%;
 }
 
-.section-play{
-    width: 100%;
-    height: 50px;
-    background-color: burlywood;
-    float: left;
-    z-index: 5;
-}
-
-
-
 
 /* sezione nera opaca in top */
 
@@ -265,10 +255,32 @@ main{
 
 
 
+/* footer play */
+.section-play{
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer-left{
+    background-color: aqua;
+    /* align-items: center;
+*/
+}
 
+.footer-center{
+    align-items: center;
+    flex-direction: column;
 
+}
 
+.footer-right{
+    /* align-items: center;
+ */
+}
 
 
 
