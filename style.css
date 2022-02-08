@@ -19,12 +19,13 @@ body{
 }
 
 .container-struttura{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
 }
 
 
-/* sezione nera opaca in top */
+/* SEZIONE NERA OPACA IN TOP */
 
 #section-top{
     width: 80%;
@@ -54,7 +55,7 @@ body{
 }
 
 
-/* menu nero a sinistra */
+/* MENU NERO A SINISTRA */
 
 .section{
     flex-direction: column;
@@ -62,7 +63,7 @@ body{
 
 .nav-bar-left{
     width: 20%;
-    height: 93vh;
+    height: calc(100vh - 60px);
     background-color: black;
     float: left;
     flex-direction: column;
@@ -132,8 +133,9 @@ a:hover{
 
 .playlist ul{
     margin-top: 10px;
-    overflow: auto;
+    overflow-x: auto;
 }
+
 .playlist{
     height: 200px;
     overflow: auto;  /* problemi con overflow */
@@ -179,9 +181,9 @@ a:hover{
 
 .main-header{
     width: 100%;
-    height: 8vh;
     background-color: chocolate;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .main-header ul{
@@ -201,7 +203,7 @@ a:hover{
 main{
     background-color: cadetblue;
     width: 80%;
-    height: 85vh;
+    height: calc(100% - 60px);
     overflow: auto;
     float: left;
 }
@@ -258,7 +260,7 @@ main{
 /* footer play */
 .section-play{
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: burlywood;
     float: left;
     justify-content: space-between;
@@ -267,8 +269,14 @@ main{
 
 .footer-left{
     background-color: aqua;
-    /* align-items: center;
-*/
+}
+
+.little-img-container{
+    width: 10%;
+}
+
+.little-img-container img{
+    width: 100%;
 }
 
 .footer-center{
@@ -278,9 +286,14 @@ main{
 }
 
 .footer-right{
-    /* align-items: center;
- */
+  
 }
+
+
+
+
+
+
 
 
 
