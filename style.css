@@ -32,6 +32,7 @@ body{
     height: 60px;
     background-color: rgba(0, 0, 0, 0.7);
     float: left;
+    margin-bottom: 20px;
 }
 
 .upgrade{
@@ -177,87 +178,41 @@ a:hover{
 
 
 /* main header */
-
-
-.main-header{
+.header-main{
     width: 100%;
-    background-color: chocolate;
-    justify-content: center;
-    margin-bottom: 20px;
+    background-color: brown;
+    text-align: center;
 }
 
-.main-header ul{
-    list-style: none;
-}
-.main-header li{
-    display: inline-block;
-    padding: 5px 8px;
+.header-link a{
+    padding: 10px;
 }
 
-.main-header li:hover{
-    border-bottom: 1px solid greenyellow;
-    color: grey;
-}
 
-/* main */
-main{
-    background-color: cadetblue;
-    width: 80%;
-    height: calc(100% - 60px);
-    overflow: auto;
-    float: left;
-}
 
-.main-content h2{
-    margin-bottom: 10px;
-}
-
+/* MAIN */
 .main-content{
-    justify-content: start;
-    margin-left: 15px;
-    flex-direction: column;
+    width: 100%;
+    background-color: aqua;
 }
-
-.recently-section{
-    gap: 8px;
-    flex-wrap: wrap;
-}
-
 
 .img-container{
-    background-image: url("img/aquietplace.jpeg");
-    background-size: cover;
+  
+}
+
+
+.img-box{
     width: 200px;
     height: 200px;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-img{
-    flex-direction: column;
-    align-items: center;
-    color: white
-}
-
-.box-img p{
-    color: grey;
-}
-
-.img-container i{
-    font-size: 3em;
-    /* display: none; */
-}
-
-.img-container:hover{
-    opacity: 0.5;
-    
+    background-image: url("img/metal_lifting.jpg");
+    background-size: cover;
 }
 
 
 
-/* footer play */
+
+
+/* FOOTER PLAY */
 .section-play{
     width: 100%;
     height: 60px;
@@ -267,43 +222,96 @@ main{
     align-items: center;
 }
 
+
+/* left */
 .footer-left{
     background-color: aqua;
-    justify-content: space-around;
+    justify-content:space-around ;
 }
 
 .little-img-container{
-    width: 10%;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
 }
 
 .little-img-container img{
     width: 100%;
+    object-fit: cover;
 }
 
 .name-song{
     flex-direction: column;
     justify-content: center;
-    margin-left: 8px;
+    margin-right: 30px;
 }
 
 .footer-icon{
     align-items: center;
-    justify-content: center;
+    gap: 5px;
 }
 
 
-
+/* center */
 .footer-center{
-    align-items: center;
-    flex-direction: column;
     background-color: aquamarine;
 }
 
-.footer-right{
-  background-color: aqua;
+.music-status{
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-control-icon i{
+    color: white;
+    font-size: 1.5em;
+}
+
+.music-control-icon :nth-child(3){
+    font-size: 2em;
+}
+
+.music-control-icon :nth-child(2){
+    margin: 0px 30px;
+}
+
+.music-control-icon :nth-child(4){
+    margin: 0px 30px;
+}
+
+.play-bar{
+    width: 150%;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.timing-music p{
+    font-size: 10px;
+    color: white;
 }
 
 
+
+
+
+/* right */
+.footer-right{
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.vol-bar{
+    border-bottom: 2px solid grey;
+    width: 100px;
+}
+
+.quantity-vol{
+    width: 30%;
+    border: 2px solid greenyellow;
+}
 
 
 
