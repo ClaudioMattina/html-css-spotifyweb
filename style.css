@@ -269,6 +269,7 @@ main{
 
 .footer-left{
     background-color: aqua;
+    justify-content: space-around;
 }
 
 .little-img-container{
@@ -279,14 +280,27 @@ main{
     width: 100%;
 }
 
+.name-song{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.footer-icon{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .footer-center{
     align-items: center;
     flex-direction: column;
-
+    background-color: aquamarine;
 }
 
 .footer-right{
-  
+  background-color: aqua;
 }
 
 
