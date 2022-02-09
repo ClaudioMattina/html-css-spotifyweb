@@ -16,6 +16,17 @@
     background-color: black;
 }
 
+.logo-container{
+    height: 60px;
+    background-color: aqua;
+    width: 100%;
+}
+
+.logo-container img{
+    width: 70%;
+    padding-left: 5%;
+}
+
 
 
 
@@ -55,9 +66,7 @@
 }
 
 .recently-played{
-    gap: 2%;
-    
-    
+    gap: 2%; 
 }
 
 .img-container{
