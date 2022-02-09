@@ -8,6 +8,11 @@
     display: flex;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 
 /* NAV BAR LEFT */
 .nav-bar-left{
@@ -18,10 +23,12 @@
     justify-content: space-between;
 }
 
+/* sezione top navbar */
 .section-top-navbar{
     padding-left: 3%;
 }
 
+/* logo */
 .logo-container{
     height: 60px;
     background-color: aqua;
@@ -33,10 +40,7 @@
     padding-left: 5%;
 }
 
-.icon a{
-    text-decoration: none;
-}
-
+/* icone */
 .icon li{
     padding: 3% 0px;
 }
@@ -46,6 +50,74 @@
     font-size: 1.5em;
 }
 
+/* add playlist */
+.add-playlist{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.add-playlist h4{
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.add-playlist i{
+    border: 1 px solid grey;
+    color: white;
+    background-color: grey;
+    padding: 2%;
+    font-size: 1.5em;
+}
+
+.add-icon{
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.add-playlist li{
+    padding-top: 2%;
+}
+
+
+/* section bot navbar */
+.section-bot-navbar i{
+    color: white;
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 50%;
+    font-size: 0.6em;
+}
+
+.istalla-app{
+    align-items: center;
+    gap: 2%;
+}
+
+.divisore{
+    width: 90%;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 2%;
+    margin: 4% 0px;
+}
+
+.who{
+    align-items: center;
+}
+
+.who i{
+    color: white;
+    border: 1 px solid grey;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.who p{
+    color: white;
+}
 
 
 
