@@ -27,6 +27,8 @@
     width: calc(100% - 250px);
     height: calc(100vh - 60px);
     background-color: coral;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .upgrade-bar{
@@ -54,16 +56,19 @@
 
 .recently-played{
     gap: 2%;
+    
+    
 }
 
 .img-container{
     width: calc(90% / 6);
     text-align: center;
+    
 }
 
 .img-container img{
     width: 100%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 
