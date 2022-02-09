@@ -39,12 +39,23 @@ a{
     width: 100%;
 }
 
+.logo-small{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
 .logo-container img{
     width: 70%;
     padding-left: 5%;
 }
 
 /* icone */
+
+
 .icon li{
     padding: 3% 0px;
 }
@@ -221,8 +232,9 @@ a{
 
 .footer-left{
     margin-left: 1%;
-    /* width: 25%; */
-    width: 15%;
+    width: 200px;
+    height: 60px;
+    align-items: center;
 }
 
 .img-brano{
@@ -238,6 +250,8 @@ a{
     flex-direction: column;
     justify-content: center;
     margin-left: 2%;
+    width: 90px;
+    height: 60px;
 }
 
 .icon-left-footer{
@@ -250,7 +264,7 @@ a{
 /* footer centrale */
 .central-footer{
     flex-direction: column;
-    width: 30%;
+    width: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -313,9 +327,10 @@ a{
     }
 
     /* uuuu */
-    
+
     .nav-bar-left{
-        width: auto;
+        width: 50px;
+        align-items: center;
     }
     .logo-container{
         display: none;
@@ -326,10 +341,26 @@ a{
     .istalla-app a{
         display: none;
     }
+    .istalla-app i{
+        
+        padding: 5px;
+    }
     .divisore{
         display: none;
+    }
+    .who i{
+        padding: 5px;
+        margin-bottom: 50%;
     }
     .who p{
         display: none;
     }
+
+
+    /* logo */
+    .logo-small{
+        display: flex;
+    }
+
+
 }
