@@ -197,16 +197,21 @@ a:hover{
     float: left;
     overflow-y: auto;
     overflow-x: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
+
+
 .recently-played{
-    width: 100%;
-    height: 100%;
+    gap: 2%;
+    flex-wrap: wrap;
 }
 
 .img-box{
-    width: calc(100% / 6);
+    width: calc(90% / 6);
     flex-direction: column;
+    
 }
 
 .descrizioni{
