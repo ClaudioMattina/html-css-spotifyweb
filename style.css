@@ -133,20 +133,25 @@ a{
     overflow-x: hidden;
 }
 
-.upgrade-bar{
-    height: 60px;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    position: fixed;
-}
-
 .nav-bar-top{
     width: 100%;
     height: 40px;
     background-color:aqua;
-    margin-top:60px
+    margin-top:60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+.nav-bar-top li{
+    display: inline-block;
+}
+
+.nav-bar-top a{
+    /* margin: 2% 0%; */
+}
+
+
 
 /* contenuto del main */
 .main-content{
@@ -163,13 +168,35 @@ a{
 .img-container{
     width: calc(90% / 6);
     text-align: center;
-    
 }
 
 .img-container img{
     width: 100%;
     margin-top: 5%;
 }
+
+
+
+/* upgrade-bar */
+.upgrade-bar{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+}
+
+.upgrade-container{
+    background-color: aliceblue;
+    align-items: center;
+}
+
+.upgrade-container h3{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
 
 
 
@@ -180,4 +207,32 @@ a{
     height: 60px;
     background-color: firebrick;
     position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left{
+    margin-left: 10px;
+}
+
+.img-brano{
+    width: 40px;
+    height: 40px;
+}
+
+.img-brano img{
+    width: 100%;
+}
+
+.nome-brano{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.icon-left-footer{
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 15px;
 }
