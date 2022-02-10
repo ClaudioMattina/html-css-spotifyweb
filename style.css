@@ -230,9 +230,15 @@ a{
 
 
 /* upgrade-bar */
+
+.upgrade-bar:hover{
+    font-size: 1.1em;
+    padding: 20px;
+}
+
 .upgrade-bar{
     height: 60px;
-    width: 100%;
+    width:calc(100% - 250px);
     background-color: black;
     opacity: 0.5;
     position: fixed;
@@ -240,15 +246,11 @@ a{
     justify-content: end;
 }
 
-/* .upgrade-container{
-    background-color: aliceblue;
-    align-items: center;
-} */
-
 .upgrade-container h3{
     border: 1px solid white;
-    border-radius: 50%;
-    color: blue;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 10px;
 }
 
 
@@ -265,7 +267,7 @@ a{
 
 .footer-left{
     margin-left: 1%;
-    width: 200px;
+    width: 25%;
     height: 60px;
     align-items: center;
 }
@@ -297,19 +299,22 @@ a{
 /* footer centrale */
 .central-footer{
     flex-direction: column;
-    width: 600px;
+    width: 50%;
     justify-content: center;
     align-items: center;
 }
 
 .icon-central-footer{
    align-items: center;
-   width: 600px;
+   width: 50%;
+   margin: auto;
    justify-content: center;
+   flex-wrap: nowrap;
 }
 
 .timing-bar{
-    width: 600px;
+    width: 70%;
+    margin: auto;
     align-items: center;
     justify-content: center;
 }
@@ -325,13 +330,12 @@ a{
 .footer-right{
     justify-content: center;
     align-items: center;
-    margin-right: 1%;
+    width: 23%;
 }
 
 .little-bar{
-    width: 100px;
+    width: 30%;
     border-bottom: 2px solid grey;
-    margin-right: 2%;
 }
 
 
@@ -352,6 +356,22 @@ a{
     .img-container{
         width: calc(88% / 2);
         text-align: center;
+    }
+
+    .footer-left{
+        width: 20%;
+    }
+
+    .central-footer{
+        width: 65%;
+    }
+
+    .icon-central-footer{
+        width: 100%;
+    }
+
+    .footer-right{
+        width: 20%;
     }
 }
 
@@ -401,5 +421,11 @@ a{
         display: flex;
     }
 
+    .icon-central-footer{
+        width: 100%;
+    }
 
+    .listening-bar{
+        width: 100%;
+    }
 }
