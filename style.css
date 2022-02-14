@@ -428,4 +428,12 @@ a{
     .listening-bar{
         width: 100%;
     }
+
+    .upgrade-bar{
+        width: calc(100% - 46px);
+    }
+
+    .img-brano img{
+        width: 40px;
+    }
 }
